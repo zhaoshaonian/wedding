@@ -1,0 +1,32 @@
+body{background:#fff;}
+body,ul,p,h1,h2,h3,h4,dl,dd,form,input,textarea,select { padding:0; margin:0; font-family:arial; }
+li { list-style:none; }
+img { border:none; }
+a { text-decoration:none; cursor: pointer;}
+a:hover { text-decoration:none; }
+
+.clear { zoom:1; }
+.clear:after { content:''; display:block; clear:both; }
+
+/*services 部分*/
+#services_bg{background:#f1f1f1; width:100%; padding:100px 0;}
+#services{ width:1200px; box-sizing:border-box; margin:0 auto; }
+#services .title,#store .title{ text-align:center;}
+#services .title h2,#store .title h2{color:#382d44; font-size:60px; margin-bottom:25px; font-weight: 500;line-height: 1.1;}
+#services .title p,#store .title p{ width:940px; font-size: 14px; line-height:24px; color: #646464; margin:0 auto;}
+#services .title img,#store .title img{ margin-bottom:25px;}
+
+#services .services_list{ width: 1200px;margin: 0 auto;position: relative; overflow:hidden; margin-top:70px;}
+#services .services_list ul{display:flex; flex-flow:row wrap; justify-content:space-between;}
+#services .services_list li{position:relative;width: 370px;height:170px; padding-left:100px; box-sizing:border-box; margin-top:30px;}
+#services .services_list li>:first-child{ display:block; width:60px; height:60px; background:#fff; position:absolute; top:0; left:10px; text-align:center; border-radius:50%; transition:all 0.5s linear;}
+#services .services_list li>:first-child:hover{background:#000;}
+#services .services_list img{margin-top:12px;}
+#services .services_list h4{ font-weight: 700;font-size: 20px; }
+#services .services_list hr{width:60px; height:3px;background: #ee0548; border:0; margin:20px 0;}
+#services .services_list h4 a{ color:#111111;transition:all 0.5s;}
+#services .services_list h4 a:hover{ color:#ee0548; }
+#services .services_list p{font-size: 14px;line-height: 24px;color: #646464; margin-top:14px;}
+#services .BoxSwitch {text-align: center; padding:20px 0;}
+#services .BoxSwitch span {display: inline-block;*display: inline;*zoom: 1;vertical-align: middle;width: 24px;height:5px;background: #ccc;margin: 0 5px;cursor: pointer; border-radius:5px; border:1px solid #869791;}
+#services	.BoxSwitch span.cur {background: red;}

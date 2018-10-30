@@ -1,0 +1,50 @@
+#register_body{ width:1200px; margin:0 auto; padding:80px 0; box-sizing:border-box;}
+#register_body .register_title{text-align:center;}
+#register_body .register_title h3{ color:#000; font-size:2.5em; letter-spacing: 1px; font-weight:600;}
+#register_body .register_page{ display:flex; justify-content:space-between; margin-top:40px;}
+#register_body .register_page .page_left{ border:2px solid #44c7f4; width:780px; height:770px; padding:40px; box-sizing:border-box;}
+#register_body .register_page .page_left strong{ float:left; width:200px; font-size:14px; letter-spacing:0.5px; text-align:left; color:#000; font-weight:600; text-transform:uppercase; margin-top:16px;}
+#register_body .register_page .page_left span{position: absolute; top:-10px;right:0; font-size:14px; text-align:center; color:#f00; text-transform:uppercase; margin-top:20px;}
+#register_body .register_page .page_left .input{ width:496px; padding:10px 0; border:0; border-bottom:1px solid #000;outline: none; font-size:14px; letter-spacing: 0.6px; text-indent:10px;}
+#register_body .register_page .page_left div{ width:100%;  margin-bottom:24px; position: relative;}
+#register_body .register_page .page_left select{ width:496px; margin-top:10px; border:0; border-bottom:1px solid #000; outline: none; padding:0 0 10px 10px; font-size:14px;letter-spacing: 0.6px;}
+#register_body .register_page .page_left label{ margin-right:20px; padding-top:14px;}
+#register_body .register_page .page_left .gender{display:inline-block; margin-bottom:0;}
+#register_body .register_page .page_left .gender div{margin-top:14px;}
+#register_body .register_page .page_left label input{ margin-right:10px;}
+
+#register_body .register_page .btn{ width:100%;}
+#register_body .register_page .btn input{ width:100%; outline: none;  padding: 10px 0; font-size: 1em; color: #fff; border: none; background: #EA3621; margin: 1.5em 0 0; text-transform: uppercase; cursor:pointer;}
+#register_body .register_page .btn input:hover{background: #44c7f4; transition:all 0.5s;}
+
+
+#register_body .register_page h4{  font-size:1.2em; color:#212121; margin:1.5em 0 1em; text-align:center;}
+#register_body .register_page .continue{ text-align:center; }
+#register_body .register_page .continue a{display: inline-block; width:160px; height:40px; background:#d5d5d5;}
+
+#register_body .register_page .continue .left{ display:flex; justify-content:space-between;}
+#register_body .register_page .continue h5{ width:120px; height:40px;  line-height:40px; color:#000; position:relative; top:-60px; left:40px; opacity:0;}
+#register_body .register_page .continue img{ width:40px; height:40px;}
+#register_body .register_page .continue img{ width:40px; height:40px;}
+#register_body .register_page .continue .right{display:flex; justify-content:space-between; }
+#register_body .register_page .facebook p,#register_body .register_page .twitter p{ width:160px; height:40px; line-height:40px; border-left:1px solid #fff; color:#fff;}
+#register_body .register_page .facebook p{ background:#3b5998;}
+#register_body .register_page .twitter p{ background:#00acee;}
+#register_body .register_page a:hover p{ opacity:0; transition:all 0.5s;}
+#register_body .register_page a:hover h5{ opacity:1; transition:all 1s;}
+
+#register_body .register_page .page_right .page_t{ width:380px; height:420px; padding:40px; box-sizing:border-box; border:2px solid #44c7f4;}
+#register_body .register_page .page_right .page_t h3{ color:#000; font-size:22px;text-transform: capitalize;letter-spacing: 1px;line-height: 29px;text-align: center;margin: 0 0 .3em;}
+#register_body .register_page .page_right .page_t p{ font-size: 16px; color: #777;letter-spacing: .6px;line-height: 33px;}
+#register_body .register_page .page_right .page_t ul{    border-bottom: 2px dotted rgba(197, 197, 197, 0.47); margin-top:8px;}
+#register_body .register_page .page_right .page_t li{ background:url(../img/sure.png) no-repeat left; padding-left:30px; color:#000; margin-bottom:0.6em; font-size:16px; letter-spacing: 0.5px; text-transform: capitalize;}
+#register_body .register_page .page_right .page_t h5{ color: #000; font-size: 15px; letter-spacing: 0.5px; padding: 12px 0 14px; margin:0;}
+#register_body .register_page .page_right .page_t h5>img{ position:relative; top:5px; left:5px; }
+#register_body .register_page .page_right .page_t .reg{background:#EA3621 !important; text-align:center; width:190px; }
+#register_body .register_page .page_right .page_t a{ display:block; height:50px; line-height:50px;  color:#fff;}
+#register_body .register_page .page_right .page_t a:hover{ background:#44c7f4 !important;  transition:all 0.5s;}
+
+#register_body .register_page .page_right .page_b{ width:380px; padding:40px; box-sizing:border-box; border:2px solid #44c7f4; margin-top:24px;}
+#register_body .register_page .page_right .page_b h3{ color:#000; font-size:22px;text-transform: capitalize;letter-spacing: 1px;line-height: 29px;text-align: center;margin: 0 0 .3em;}
+#register_body .register_page .page_right .page_b img{width:3px; margin-right:10px; }
+#register_body .register_page .page_right .page_b li{color:#000; margin-bottom:0.6em; font-size:16px; letter-spacing: 0.5px; text-transform: capitalize;}
